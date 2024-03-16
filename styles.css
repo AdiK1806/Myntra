@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, 
+    Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+    
+}
+.logo_container{
+    margin-left: 1%;
+}
+.myntra_home{
+    height: 45px;
+}
+.action_bar{
+    margin-right: 1%;
+}
+
+.nav_bar{
+    display: flex;   
+    min-width: 515px;
+    justify-content: space-evenly;
+}
+.nav_bar a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    padding: 28px 0;
+    box-sizing: content-box;
+    border-bottom:4px solid #ffffff ;
+}
+.nav_bar a:hover{
+    border-color: #f54e77 ; 
+}
+
+.nav_bar a sup{
+    color:#FF3F6C;
+    font-size: 10px;
+}
+
+.search_bar{
+    height: 40px;
+    width: 30%;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.search_icon{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    color:#282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search_input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 200px;
+}
+.action_bar a{
+    text-decoration: none;
+    color: #000000;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+/* Main Section */
+.banner_container{
+    margin:40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 250px;
+}
+
+
+/* Footer Section */
+footer{
+    background-color: #FAFBFC;
+}
+.footer_container{
+    padding: 30px 0 40px 0;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.footer_column{
+    display: flex;
+    flex-direction:column;
+}
+.footer_column h3{
+    font-size: 14px;
+    color: #282c3f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer_column a{
+    font-size: 14px;
+    color: #696b79;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.copyright{
+    border-bottom: #eaeaec solid 1.5px ;
+    text-align: center;
+    color: #94969f;
+}
