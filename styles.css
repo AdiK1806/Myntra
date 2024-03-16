@@ -1,3 +1,4 @@
+/*Universally Applicable Section*/
 *{
     margin:0;
     padding:0;
@@ -6,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* Header */
+/* Header Section*/
 header{
     display: flex;
     background-color: #ffffff;
