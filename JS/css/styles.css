@@ -1,0 +1,258 @@
+/*Universally Applicable Section*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, 
+    Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Section*/
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+    
+}
+.logo_container{
+    margin-left: 1%;
+}
+.myntra_home{
+    height: 45px;
+}
+.action_bar{
+    margin-right: 1%;
+}
+
+.nav_bar{
+    display: flex;   
+    min-width: 515px;
+    justify-content: space-evenly;
+}
+.nav_bar a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    padding: 28px 0;
+    box-sizing: content-box;
+    border-bottom:4px solid #ffffff ;
+}
+.nav_bar a:hover{
+    border-color: #f54e77 ; 
+}
+
+.nav_bar a sup{
+    color:#FF3F6C;
+    font-size: 10px;
+}
+
+.search_bar{
+    height: 40px;
+    width: 30%;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.search_icon{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    color:#282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search_input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 200px;
+}
+.action_bar a{
+    text-decoration: none;
+    color: #000000;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.bagItemCnt{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Main Section */
+/* Main pre */
+.banner_container{
+    margin:40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items, .items-container{
+    display: flex;
+    width: 80%;
+    margin: 50px 10%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 250px;
+}
+
+
+.items-container{
+    width: 90%;
+    margin: 20px 5%;
+}
+.item-container{
+    width:250px;
+    margin: 10px 5px;
+}
+.item-image{
+    width: 100%;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.price{
+    margin: 10px 0 6px;
+    font-weight: 700;
+}
+.current-price{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.btn-add-bag{
+    margin-top: 8px;
+    width: 100%;
+    background-color: #e506bb;
+    border: none;
+    font-size: 18px;
+    padding: 5px 0px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer{
+    background-color: #FAFBFC;
+}
+.footer_container{
+    padding: 30px 0 40px 0;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.footer_column{
+    display: flex;
+    flex-direction:column;
+}
+.footer_column h3{
+    font-size: 14px;
+    color: #282c3f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer_column a{
+    font-size: 14px;
+    color: #696b79;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.copyright{
+    border-bottom: #eaeaec solid 1.5px ;
+    text-align: center;
+    color: #94969f;
+}
